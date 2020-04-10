@@ -1,10 +1,10 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Hero } from '../hero';
 
 @Component({
   selector: 'cq-hero',
   templateUrl: './hero.component.html',
-  styleUrls:  ['./hero.component.css']
+  styleUrls: ['./hero.component.css']
 })
 export class HeroComponent {
   @Input() hero: Hero;

@@ -7,11 +7,11 @@
     "ng": "ng",
     "build": "ng build --prod",
     "start": "ng serve -o",
-    "test": "ng test",
+    "test": "ng test --source-map=false",
     "lint": "tslint ./src/**/*.ts -t verbose",
     "e2e": "ng e2e"
   },
-  "keywords": [],
+  "keywords": [ ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -53,5 +53,5 @@
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
   },
-  "repository": {}
+  "repository": { }
 }
